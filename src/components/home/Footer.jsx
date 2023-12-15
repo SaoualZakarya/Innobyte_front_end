@@ -42,10 +42,10 @@ export const Footer = () => {
             <div className="box">
               <h3>Follow</h3>
               <ul>
-                <li><a href="#"><FaFacebook /></a></li>
-                <li><a href="#"><FaTwitter /></a></li>
-                <li><a href="#"><FaInstagram /></a></li>
-                <li><a href="#"><FaSnapchat /></a></li>
+                <li><a href="www.facebook.com"><FaFacebook /></a></li>
+                <li><a href="www.twitter.com"><FaTwitter /></a></li>
+                <li><a href="www.instagram.com"><FaInstagram /></a></li>
+                <li><a href="www.snapchat.com"><FaSnapchat /></a></li>
               </ul>
             </div>
           </div>
