@@ -7,7 +7,7 @@ export const Hero = () => {
     <section className="hero">
       <div className="container">   
         <div className="text">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat repudiandae, earum laudantium quod dolor impedit ullam harum sit quidem consectetur fugit quia culpa officia molestiae aut eius praesentium <span>numquam minima.</span></p>
+          <p><span>SyncHub</span>: Elevate collaboration with a seamless online workspace connecting teams and researchers. Effortless communication, amplified productivity. Welcome to the future of teamwork.</p>
         </div>
         <div className="img">
           <img src={image1} alt="picture of calloboration" />
