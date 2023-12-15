@@ -29,6 +29,20 @@ a {
 
 /*start home */
 .home-link{
-    @apply hover:text-[#2563EB]
+    @apply hover:text-[#2563EB] text-[18px] cursor-pointer font-semibold
+}
+.end-nav::before{
+    content: '';
+    display: absolute;
+    top: 0;
+    background-color: #E5E7EB   ;
+    width: 3px;
+    height: 40px;
+    left: -80px;
 }
 /*end home */
+/* start what we can do  */
+.title{
+    @apply text-center text-[#565656] text-[30px] mb-5
+}
+/* end what we can do  */

@@ -1,22 +1,23 @@
 import { Link } from "react-router-dom"
+import { FaRegUser } from "react-icons/fa";
 
 export const NavBar = () => {
   return (
-    <div className="py-4 container">
+    <div className="py-4 flex items-center justify-between container">
         <div className="text-xl">Logo</div>
-        <nav className="flex gap-10 ">
-            <a src="#home" className="home-link">Home </a>
-            <a src="#feature" className="home-link">Features</a>
-            <a src="#q&a" className="home-link">Q & A</a>
-            <a src="#pricing" className="home-link">Pricing </a>
-            <a src="#contact" className="home-link">Contact Us </a>
+        <nav className="lg:flex hidden gap-10  ">
+            <a href="#home" className="home-link">Home </a>
+            <a href="#feature" className="home-link">Features</a>
+            <a href="#q&a" className="home-link">Q & A</a>
+            <a href="#pricing" className="home-link">Pricing </a>
+            <a href="#contact" className="home-link">Contact Us </a>
         </nav>
-        <div>
-            <Link to="/Login" className="p-3flex gap-3 border-[#E5E7EB] " > 
-                <img src="../assets/icons" className="w-5 h-5" />
+        <div className="end-nav relative flex gap-3 items-center">
+            <Link to="/Login" className="px-3  text-[18px] rounded-xl py-2 flex items-center gap-3 border-solid border-[4px] border-[#E5E7EB] " > 
+                <FaRegUser  className="w-4 h-4" />
                 <span>Login</span>
             </Link>
-            <Link to="/" className="bg-[#2563EB] p-3" >
+            <Link to="/" className="px-3 text-[18px]  rounded-xl py-2  text-white bg-[#2563EB] h-full" >
                 Sign Up
             </Link>
         </div>
