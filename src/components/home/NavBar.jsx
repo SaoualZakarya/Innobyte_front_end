@@ -17,7 +17,7 @@ export const NavBar = () => {
                 <FaRegUser  className="w-4 h-4" />
                 <span>Login</span>
             </Link>
-            <Link to="/" className="px-3 text-[18px]  rounded-xl py-2  text-white bg-[#2563EB] h-full" >
+            <Link to="/sign-in" className="px-3 text-[18px]  rounded-xl py-2  text-white bg-[#2563EB] h-full" >
                 Sign Up
             </Link>
         </div>

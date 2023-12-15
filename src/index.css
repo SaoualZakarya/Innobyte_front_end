@@ -46,6 +46,9 @@ a {
 /*end home */
 /* start what we can do  */
 .title{
-    @apply text-center text-[#565656] text-[30px] mb-5
+    @apply text-center text-[#565656] text-[30px] mb-5 font-bold
 }
 /* end what we can do  */
+.error{
+    @apply text-[12px] text-red-600
+}
