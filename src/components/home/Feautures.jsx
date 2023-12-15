@@ -2,7 +2,7 @@ import image1 from '../../assets/picture2.png'
 
 export const Features = () => {
     return(
-        <section className="features">
+        <section id='feature' className="features">
             <h2>Our <span>Feautures</span></h2>
             <div className="container">
                     <div className="image">

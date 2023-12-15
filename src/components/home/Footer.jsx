@@ -4,7 +4,7 @@ import { FaInstagram } from "react-icons/fa";
 import { FaSnapchat } from "react-icons/fa";
 export const Footer = () => {
   return (
-    <footer>
+    <footer id='contact'>
       <div className="container">
         <hr />
         <div className="boxes">

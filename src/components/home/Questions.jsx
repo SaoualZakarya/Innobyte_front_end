@@ -17,7 +17,7 @@ export const Questions = () => {
   };
 
   return (
-    <div className="container">
+    <div id='q&a' className="container ">
       <h3 className="special">Frequently asked <span>questions</span></h3>
       <ul className="faq">
         {data.map((l, i) => 

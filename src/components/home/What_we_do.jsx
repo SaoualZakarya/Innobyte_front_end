@@ -1,7 +1,7 @@
 
 export const What_we_do = () => {
   return (
-    <div className="container py-12">
+    <div  className="container py-12">
         <div className="title">
             What you 
             <span className="pl-2 text-[#FFCA1D]">

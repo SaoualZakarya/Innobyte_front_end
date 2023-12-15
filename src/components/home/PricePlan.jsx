@@ -2,7 +2,7 @@ import image1 from '../../assets/Vector.png'
 
 export const PricePlan = () => {
   return (
-    <section className="priceplan">
+    <section id='pricing' className="priceplan">
       <img src={image1} alt="vector" />
       <img src={image1} alt="vector" />
       <h3 className="special">Make the wise decision <br /> for <span>your business</span></h3>

@@ -1,10 +1,14 @@
 import { Link } from "react-router-dom"
 import { FaRegUser } from "react-icons/fa";
-import image1 from '../../assets/logo.png'
 export const NavBar = () => {
   return (
     <div className="py-4 flex items-center justify-between container">
-        <div className="text-xl">Logo</div>
+        <div className="text-xl">
+            <Link to={'/'} className="flex items-center gap-2">
+                <img src="/logo.png" alt="logo"/>
+                <div className="text-[30px] font-bold"> Sync<span className="text-[#3ADAD9]">Hub</span></div>
+            </Link>
+        </div>
         <nav className="lg:flex hidden gap-10  ">
             <a href="#home" className="home-link">Home </a>
             <a href="#feature" className="home-link">Features</a>
