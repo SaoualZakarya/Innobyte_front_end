@@ -10,7 +10,7 @@ export const Projects = () => {
               <h2 className="font-bold text-[18px] text-[#1F2937]">Project A</h2>
               <p className="text-[#6B7280]">
                 Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                bulk of the cards content.
               </p>
             </div>
               <p className="text-[#6B7280]">
@@ -25,7 +25,7 @@ export const Projects = () => {
               <h2 className="font-bold text-[18px] text-[#1F2937]">Project B</h2>
               <p className="text-[#6B7280]">
                 Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                bulk of the cards content.
               </p>
             </div>
               <p className="text-[#6B7280]">
@@ -40,7 +40,7 @@ export const Projects = () => {
               <h2 className="font-bold text-[18px] text-[#1F2937]">Project C</h2>
               <p className="text-[#6B7280]">
                 Some quick example text to build on the card title and make up the
-                bulk of the card's content.
+                bulk of the cards content.
               </p>
             </div>
               <p className="text-[#6B7280]">

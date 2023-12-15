@@ -1,4 +1,4 @@
-import { CustomInput } from "../CustomInput"
+import { CustomInput } from "../../components/CustomInput"
 import { Link } from "react-router-dom"
 import { FiArrowLeft } from "react-icons/fi";
 import {useFormik} from 'formik'

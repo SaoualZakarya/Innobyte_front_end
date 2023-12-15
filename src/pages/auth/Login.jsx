@@ -2,7 +2,7 @@ import {useFormik} from 'formik'
 import { Link,useNavigate } from "react-router-dom"
 import { FiArrowLeft } from "react-icons/fi";
 import * as Yup from 'yup';
-import { CustomInput } from "../CustomInput"
+import { CustomInput } from "../../components/CustomInput"
 
 let userSchema = Yup.object({
   email: Yup.string().email('email should be valid ').required('email is required'),

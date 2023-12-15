@@ -1,13 +1,13 @@
 import { BrowserRouter,Route,Routes } from "react-router-dom"
-import { Home } from "./components/ui/Home"
-import { Sign_in } from "./components/auth/Sign_in"
-import { Login } from "./components/auth/Login"
+import { Home } from "./pages/Home"
+import { Sign_in } from "./pages/auth/Sign_in"
+import { Login } from "./pages/auth/Login"
 import { UserLayout } from "./pages/UserLayout"
-import {Projects} from './components/user/Projects'
+import {Projects} from './pages/user/Projects'
 import {ProjectLayout} from './pages/ProjectLayout'
-import {Tasks} from './components/user/Tasks'
-import {Calender} from './components/user/Calender'
-import {Chat} from './components/user/Chat'
+import {Tasks} from './pages/user/Tasks'
+import {Calender} from './pages/user/Calender'
+import {Chat} from './pages/user/Chat'
 
 function App() {
 
