@@ -1,4 +1,5 @@
 import  { useState } from 'react';
+import { IoIosArrowDown } from "react-icons/io";
 
 export const Questions = () => {
   const [data, setData] = useState([
@@ -20,10 +21,10 @@ export const Questions = () => {
       <h3 className="special">Frequently asked <span>questions</span></h3>
       <ul className="faq">
         {data.map((l, i) => 
-          <li key={i}>
-            <div className="q" onClick={() => handleToggle(i)}>
+          <li key={i} className='border-b-2 border-gray-100 py-3'>
+            <div className="q mb-4" onClick={() => handleToggle(i)}>
               <span className="text-xl">{l.title}</span>
-              <span className="arrow"></span>
+              <span className="arrow"><IoIosArrowDown /></span>
             </div>
             {l.toggle &&
               <div className="a">
@@ -31,6 +32,7 @@ export const Questions = () => {
               </div>
             }
           </li>
+
         )}
       </ul>
     </div>

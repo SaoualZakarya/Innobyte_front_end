@@ -21,13 +21,42 @@
     letter-spacing: 0.24px;
 }
 .hero .text p span {
-    color: #3ADAD9;
+    color: #000000;
+    font-weight: 800;
+    font-size: 40px;
+}
+.hero .text p span span {
+    color: #3ADAD9 !important;
 }
 .hero .img {
     width: 420px;
 }
 .hero .img img {
     width: 100%;
+}
+.hero .buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-top: 20px;
+}
+.hero .buttons button:nth-of-type(1) {
+    padding: 14px 31px;
+    border-radius: 15px;
+    background-color: #3ADAD9;
+    color: white;
+    padding-right: 16px;
+    cursor: pointer;
+    z-index: 9999999999;
+}
+.hero .buttons button:nth-of-type(2) {
+    padding: 14px 20px;
+    background-color: white;
+    color: #3ADAD9;
+    border: solid 2px #3ADAD9;
+    border-radius: 15px;
+    cursor: pointer;
+    z-index: 999999999999;
 }
 .vectors {
     position: absolute;
@@ -164,9 +193,31 @@ section:not(section:nth-of-type(1)) {
 } 
 /* customers */
 /* question */
-
+.faq li {
+    margin: 40px 0;
+    cursor: pointer;
+}
+.faq .q {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.text-xl {
+    font-weight: 600;
+}
+.arrow {
+    font-weight: 600;
+}
 /* question */
 /* priceplan */
+.priceplan > img:nth-of-type(1) {
+    position: relative;
+    top: -50px;
+}
+.priceplan > img:nth-of-type(2) {
+    position: relative;
+    top: -200px;
+}
 .priceplan .container {
     display: flex;
     align-items: center;
