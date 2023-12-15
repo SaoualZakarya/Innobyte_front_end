@@ -1,3 +1,34 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif; 
+}
+html {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a {
+   text-decoration: none;
+}
+.container {
+    width: 85%;
+    margin: 0 auto;
+}
+
+/*start home */
+.home-link{
+    @apply hover:text-[#2563EB]
+}
+/*end home */
