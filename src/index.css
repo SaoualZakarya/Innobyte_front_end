@@ -41,3 +41,8 @@ a {
     left: -80px;
 }
 /*end home */
+/* start what we can do  */
+.title{
+    @apply text-center text-[#565656] text-[30px] mb-5
+}
+/* end what we can do  */
