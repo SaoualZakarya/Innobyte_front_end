@@ -1,5 +1,5 @@
-import image1 from "../assets/picture.png"
-import image2 from "../assets/Vector.png"
+import image1 from "../../assets/picture.png"
+import image2 from "../../assets/Vector.png"
 import './app.css'
 
 export const Hero = () => {
