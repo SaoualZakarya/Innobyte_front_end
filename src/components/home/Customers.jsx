@@ -9,7 +9,7 @@ export const Customers = () => {
           <div className="img">
             <img src={image1} alt="customer" />
           </div>
-          <div className="text">
+          <div className="text ">
             <p>it's all about finding the right people to collaborate with, and nothing made that process any smoother than SyncHub, effiency and team collaboration all in one place</p>
             <h4>Amaka Micheal</h4>
             <p>machine learning engineer</p>

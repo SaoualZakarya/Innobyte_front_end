@@ -21,6 +21,7 @@ function App() {
           <Route path="/login" element={<Login/>} />
           <Route path="/user" element={<UserLayout/>} >
             <Route index element={<Projects/>} />
+            <Route path="settings" element={<Settings/>} />
           </Route>
           <Route path="/project" element={<ProjectLayout/>} >
             <Route index element={<Tasks/>} />

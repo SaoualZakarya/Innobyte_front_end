@@ -7,7 +7,7 @@ import { IoChatbubbleEllipsesOutline } from "react-icons/io5";
 
 export const SideBar1 = () => {
   return (
-    <div className="fixed bg-white pt-6 text-[20px] h-screen font-semibold w-[100px] px-3 flex flex-col flex-shrink-0">
+    <div className="fixed z-50 bg-white pt-6 text-[20px] h-screen font-semibold w-[100px] px-3 flex flex-col flex-shrink-0">
         <div className="flex mb-8 items-center justify-center" >
             <img src="/logo.png" alt="logo"/>
             <div className="text-[30px] font-bold hidden"> Sync<span className="text-[#3ADAD9]">Hub</span></div>

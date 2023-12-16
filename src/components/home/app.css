@@ -172,7 +172,7 @@ section:not(section:nth-of-type(1)) {
     box-shadow: 0px 20px 70px 0px rgba(0, 0, 0, 0.08);
 }
 .customers .box img {
-    width: 380px;
+    width: 300px;
     margin-right: 20px;
 }
 .customers .box p:nth-of-type(1) {
@@ -191,6 +191,9 @@ section:not(section:nth-of-type(1)) {
     font-size: 17px;
     font-weight: 400;
 } 
+.customers .text {
+    flex-basis: 70%;
+}
 /* customers */
 /* question */
 .faq li {
@@ -626,6 +629,7 @@ footer .container .boxes > div:nth-of-type(2) .box ul li a {
 /* Settings */
 .settings {
     margin: 20px;
+    margin-left: 50px;
     padding: 20px;
     border-radius: 12px;
     background: #FFF;

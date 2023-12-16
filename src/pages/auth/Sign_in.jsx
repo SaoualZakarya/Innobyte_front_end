@@ -6,13 +6,16 @@ import * as Yup from 'yup';
 import {useNavigate} from 'react-router-dom'
 
 let userSchema = Yup.object({
-    email: Yup.string().email('email should be valid ').required('email is required'),
+    email: Yup.string().required('email is required'),
     name: Yup.string().required('name is required'),
     password: Yup.string().required('password is required'),
     field:Yup.string().required("Input field is required")
 });
 
 export const Sign_in = () => {
+
+    const navigate = useNavigate()
+
 
     const formik = useFormik({
         initialValues:  {
@@ -22,13 +25,11 @@ export const Sign_in = () => {
           field:'data science'
         },
         validationSchema: userSchema,
-        onSubmit: (values,{resetForm}) => {
-          alert(JSON.stringify(values))
-          resetForm()
+        onSubmit: () => {
+          navigate('/user')
         },
     })
 
-    const navigate = useNavigate()
 
   return (
     <div className="container h-[90vb] gap-[100px] pt-10 flex justify-center ">

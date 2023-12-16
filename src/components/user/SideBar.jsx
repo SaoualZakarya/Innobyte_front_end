@@ -10,11 +10,11 @@ export const SideBar = () => {
             <img src="/logo.png" alt="logo"/>
             <div className="text-[30px] font-bold"> Sync<span className="text-[#3ADAD9]">Hub</span></div>
         </div>
-        <NavLink className={`flex gap-3 items-center justify-center  py-4 rounded-xl w-full hover:text-white hover:bg-[#3ADAD9]`}>
+        <NavLink to={'/user'} className={`flex gap-3 items-center justify-center  py-4 rounded-xl w-full hover:text-white hover:bg-[#3ADAD9]`}>
             <GoProjectRoadmap className="w-6 h-6"/>
             <h4>Project</h4>
         </NavLink>
-        <NavLink className="flex gap-3 items-center justify-center hover:text-white py-4 rounded-xl w-full hover:bg-[#3ADAD9]">
+        <NavLink to={'/user/settings'} className="flex gap-3 items-center justify-center hover:text-white py-4 rounded-xl w-full hover:bg-[#3ADAD9]">
             <CiSettings className="w-6 h-6"/>
             <h4>Settings</h4>
         </NavLink>

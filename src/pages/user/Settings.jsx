@@ -1,12 +1,11 @@
 import image1 from '../../assets/person1.png'
-import image2 from '../../assets/country.png'
 import { FaRegUser } from "react-icons/fa6";
 import { MdOutlineEmail } from "react-icons/md";
 import { CiLocationOn } from "react-icons/ci";
 
 export const Settings = () => {
   return (
-    <section className="settings">
+    <section className="settings p-12 ">
       <div className="header">
         <ul>
           <li><a href="#">Account</a></li>

@@ -6,7 +6,7 @@ import { IoIosSend } from "react-icons/io";
 
 export const Chat = () => {
   return (
-    <div className="conversation">
+    <div className="conversation p-12">
       <div className="teams">
         <div>
           <div className="text">

@@ -2,7 +2,7 @@ import { CalenderComponent } from "../../components/CalenderComponent"
 
 export const Calender = () => {
   return (
-    <div className="p-8">
+    <div className="p-10">
       <div className="my-6 bg-white flex-wrap h-fit p-8 rounded-xl flex justify-around gap-14">
         <div className="flex flex-col justify-between  " > 
           <h4 className="text-xl text-[#6C6C6C]">Total of working hours per week</h4>
