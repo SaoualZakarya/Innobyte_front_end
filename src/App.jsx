@@ -8,6 +8,7 @@ import {ProjectLayout} from './pages/ProjectLayout'
 import {Tasks} from './pages/user/Tasks'
 import {Calender} from './pages/user/Calender'
 import {Chat} from './pages/user/Chat'
+import {Settings} from './pages/user/Settings'
 
 function App() {
 
@@ -25,6 +26,7 @@ function App() {
             <Route index element={<Tasks/>} />
             <Route path="calender" element={<Calender/>} />
             <Route path="chat" element={<Chat/>} />
+            <Route path="settings" element={<Settings/>} />
           </Route>
         </Routes>
 
