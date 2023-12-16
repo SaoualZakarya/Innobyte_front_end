@@ -9,6 +9,7 @@ import {Tasks} from './pages/user/Tasks'
 import {Calender} from './pages/user/Calender'
 import {Chat} from './pages/user/Chat'
 import {Settings} from './pages/user/Settings'
+import { NotFound } from "./components/NotFound"
 
 function App() {
 
@@ -29,6 +30,7 @@ function App() {
             <Route path="chat" element={<Chat/>} />
             <Route path="settings" element={<Settings/>} />
           </Route>
+          <Route path="*" element={<NotFound/>} />
         </Routes>
 
       </BrowserRouter>
