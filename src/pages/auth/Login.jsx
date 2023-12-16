@@ -5,7 +5,7 @@ import * as Yup from 'yup';
 import { CustomInput } from "../../components/CustomInput"
 
 let userSchema = Yup.object({
-  email: Yup.string().email('email should be valid ').required('email is required'),
+  email: Yup.string().required('email is required'),
   password: Yup.string().required('password is required'),
 });
 
@@ -17,9 +17,8 @@ export const Login = () => {
       password:'',
     },
     validationSchema: userSchema,
-    onSubmit: (values,{resetForm}) => {
-      alert(JSON.stringify(values))
-      resetForm()
+    onSubmit: () => {
+      navigate('/user')
     },
   })
 

@@ -70,3 +70,43 @@ tr td .images  {
 tr td .images img{
     @apply aspect-square w-12 object-cover rounded-full -ml-3.5 shadow-xl
 }
+.month{
+    position: relative;
+    padding-left: 12px;
+}
+.month:not(:nth-child(1))::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 3px;
+    height: 100%;
+    background-color: #E5E8EB;
+}
+.working-time{
+    position: relative;
+    padding-left: 12px;
+}
+.working-time::before{
+    content: '';
+    position: absolute;
+    left: -40px;
+    width: 6px;
+    height: 100%;
+    background-color: #E5E8EB;
+}
+.rbc-agenda-time-cell{
+    padding: 30px !important;   
+}
+.rbc-agenda-time-cell span{
+    background-color:  #337E8980 !important;
+}
+.rbc-event-content , .rbc-active {
+    background-color:  #337E8980 !important;
+}
+.rbc-toolbar-label{
+    font-weight: bold;
+    font-size: larger;
+}
+.rbc-off-range-bg{
+    background-color:  #337E8980 !important;
+}
