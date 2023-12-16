@@ -8,7 +8,7 @@ export const UserLayout = () => {
       <SideBar/>
       <div className="relative  ml-auto w-[calc(100vw-300px)]">
         <NavBar1/>
-        <div className="pt-[73.5px] rounded-xl ">
+        <div className="pt-[73.5px] bg-[#F3F4F6] rounded-xl ">
           <Outlet/>
         </div>
       </div>

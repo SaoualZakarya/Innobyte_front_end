@@ -117,7 +117,7 @@ section:not(section:nth-of-type(1)) {
     background-color: #FFCA1D;
     border-radius: 10px;
     left: 0;
-    top: 112px;
+    top: 60px;
 }
 .special + p {
     color: #575757;
