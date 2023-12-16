@@ -56,3 +56,17 @@ a {
     font-weight: 600;
     transition: .3s;
 }
+
+
+table tr th{
+    @apply text-gray-500 capitalize text-left
+}
+table tr td span {
+    @apply px-2.5 py-1.5 rounded-lg bg-gray-300
+}
+tr td .images  {
+ @apply flex items-center
+}
+tr td .images img{
+    @apply aspect-square w-12 object-cover rounded-full -ml-3.5 shadow-xl
+}
