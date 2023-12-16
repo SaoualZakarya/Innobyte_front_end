@@ -395,3 +395,231 @@ footer .container .boxes > div:nth-of-type(2) .box ul li a {
     font-size: 17px;
 }
 /* footer */
+/* convertion */
+.conversation {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.conversation .teams {   
+    border-radius: 12px;
+    background: #FFF;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+}
+.conversation .teams > div {
+    padding: 16px 20px;
+}
+.conversation .teams .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conversation .teams div > .text h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+.conversation .teams > .text span {
+    font-size: 18px;
+    color: #A6A8B1;
+}
+.conversation .teams form {
+    margin-top: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 8px;
+    border: 1px solid var(--Black-1, #CFD3D4);
+    padding: 8px 12px;
+}
+.conversation .teams form svg {
+    font-size: 18px;
+}
+.conversation .teams form input {
+    border-radius: 8px;
+    width: 100%;
+    padding-left: 10px;
+    outline: none;
+}
+.conversation .teams ul {
+    height: calc(100vh - 200px);
+    overflow-y: scroll;
+}
+.conversation .teams ul li {
+    cursor: pointer;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: solid 1px rgba(0, 0, 0, 0.1);
+}
+.conversation .teams ul li .image {
+    position: relative;
+}
+.conversation .teams ul li .image::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 13px;
+    height: 13px;
+    border: solid 2px white;
+    border-radius: 50%;
+    background-color: #5570F1;
+}
+.conversation .teams ul li:nth-of-type(1) {
+    border: none;
+    background-color: #F7F7FC;
+    border-right: solid 4px #5570F1;
+}
+.conversation .teams ul li .text {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.conversation .teams ul li .text div {
+    height: 46px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.conversation .teams ul li .text div:nth-of-type(2) {
+    text-align: center;
+}
+.conversation .teams ul li .text h5 {
+    font-size: 14px;
+    font-weight: 500;
+}
+.conversation .teams ul li .text p {
+    font-size: 12px;
+}
+.conversation .teams ul li .text span {
+    font-size: 12px;
+}
+.conversation .teams ul li .text div:nth-of-type(2) span:nth-of-type(1) {
+    border-radius: 10px;
+    background: #e5e7eb99;
+}
+.conversation .chat {
+    flex-basis: 70%;
+    border-radius: 12px;
+    background: #FFF;
+}
+.conversation .chat .header {
+    padding: 10px 20px;
+    position: relative;
+    border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+    display: flex;
+}
+.conversation .chat .header p {
+    padding-left: 10px;
+    font-weight: 500;
+}
+.conversation .chat .header div {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 6px;
+}
+.conversation .chat .header div span:nth-of-type(1) {
+    color: #5570F1;
+    font-size: 14px;
+}
+.conversation .chat .header div span:nth-of-type(2) {
+    color: #8B8D97;
+    font-size: 14px;
+}
+.conversation .chat .main {
+    display: flex;
+    flex-direction: column;
+    padding: 12px 20px;
+}
+.conversation .chat .main p {
+    color: white;
+    padding: 8px 20px;
+}
+.conversation .chat .main span {
+    margin: 4px 0 6px;
+    font-size: 14px;
+    color: #8B8D97;
+}
+.conversation .chat .main p:nth-of-type(1),
+.conversation .chat .main p:nth-of-type(5)  {
+    background-color: #e5e7eb99;
+    align-self: center;
+    padding: 4px 14px;
+    border-radius: 12px;
+    color: black !important;
+    margin-bottom: 8px;
+}
+.conversation .chat .main p:nth-of-type(2) {
+    align-self: self-start;
+    border-radius: 16px 16px 16px var(--Basic-Forms-Input-Underline-Border-Radius, 0px);
+    background: #FD9B79;
+}
+.conversation .chat .main p:nth-of-type(3), 
+.conversation .chat .main p:nth-of-type(4) {
+    align-self: self-end;
+    border-radius: 16px 16px var(--Basic-Forms-Input-Underline-Border-Radius, 0px) 16px;
+    background: var(--Secondary-50, #ffc885);
+} 
+.conversation .chat .main p:nth-of-type(6) { 
+    align-self: self-start;
+    border-radius: 16px 16px 16px var(--Basic-Forms-Input-Underline-Border-Radius, 0px);
+    background: #FED369;
+} 
+.conversation .chat .main ul {
+    display: flex;
+    justify-content: end;
+    margin-bottom: 12px;
+    gap: 10px;
+}
+.conversation .chat .main ul li {
+    background-color: #e5e7eb99;
+    padding: 8px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.conversation .chat .main form {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-radius: 6px;
+    border: solid 1px rgba(0, 0, 0, 0.2);
+    padding: 6px 12px;
+}
+.conversation .chat form > svg:nth-of-type(1) {
+    font-size: 20px;
+    margin-right: 10px;
+    outline: none;
+    cursor: pointer;
+}
+.conversation .chat form > input:nth-of-type(1) {
+    width: 80%;
+    outline: none;
+}
+.conversation .chat .main form div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(216, 181, 181, 0.5);
+    width: 100px;
+    border-radius: 6px;
+    padding: 4px 10px;
+    cursor: pointer;
+}
+.conversation .chat form div > input:nth-of-type(1) {
+    cursor: pointer;
+}
+.conversation .chat .main svg:nth-of-type(2) {
+    margin: 0 6px;
+    font-size: 18px;
+    cursor: pointer;
+}
+.conversation .chat form div > svg:nth-of-type(1) {
+    font-size: 18px;
+}
+/* convertion */
