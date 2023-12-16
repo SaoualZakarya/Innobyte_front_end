@@ -503,7 +503,7 @@ footer .container .boxes > div:nth-of-type(2) .box ul li a {
     background: #e5e7eb99;
 }
 .conversation .chat {
-    flex-basis: 70%;
+    flex-basis: 74%;
     border-radius: 12px;
     background: #FFF;
 }
@@ -598,7 +598,7 @@ footer .container .boxes > div:nth-of-type(2) .box ul li a {
     cursor: pointer;
 }
 .conversation .chat form > input:nth-of-type(1) {
-    width: 80%;
+    width: 84%;
     outline: none;
 }
 .conversation .chat .main form div {
@@ -623,3 +623,147 @@ footer .container .boxes > div:nth-of-type(2) .box ul li a {
     font-size: 18px;
 }
 /* convertion */
+/* Settings */
+.settings {
+    margin: 20px;
+    padding: 20px;
+    border-radius: 12px;
+    background: #FFF;
+}
+.settings .header {
+    margin-bottom: 22px;
+}
+.settings .header ul {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.settings .header ul li {
+    padding: 2px 16px;
+    transition: .1s;
+}
+.settings .header ul li a {
+    font-weight: 500;
+}
+.settings .header ul li:nth-of-type(1) {
+    border-bottom: solid 3px #3ADAD9;
+}
+.settings .header ul li:hover {
+    border-bottom: solid 3px #3ADAD9;
+}
+.settings .main > div:nth-of-type(1) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.settings .main > div:nth-of-type(1) h3 {
+    color: var(--Black-60, #45464E);
+    font-size: 20px;
+    font-weight: 500;
+}
+.settings .main > div:nth-of-type(1) button {   
+    width: 140px;
+    padding: 8px 16px;
+    border-radius: 12px;
+    background: #3ADAD9;
+    color: white;
+}
+.settings .main .personal {
+    display: flex;
+}
+.settings form {
+    display: flex;
+    flex-direction: column;
+}
+.settings form label {
+    color: var(--Black-4, #5E6366);
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 14px;
+}
+.settings form .ght:nth-of-type(1) label {
+    margin-top: 0;
+}
+.settings form label:not(label:nth-of-type(1)) {
+    margin: 10px 0;
+}
+.settings form label:nth-of-type(1) {
+    margin-bottom: 10px;
+}
+.settings form input {
+    width: 240px;
+    font-size: 14px;
+    outline: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    background: var(--Input-defaultBackground, rgba(239, 241, 249, 0.60));
+}
+.settings select {
+    outline: none;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    background: var(--Input-defaultBackground, rgba(239, 241, 249, 0.60));
+}
+.settings form > div:not(.ght) {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.settings form > div div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.settings form > div div:nth-of-type(1) select {
+    width: 100px;
+}
+.settings form > div div:nth-of-type(2) select {
+    width: 100px;
+}
+.settings img {
+    padding-left: 80px;
+}
+/* Settings */
+
+.ght{
+    position: relative;
+    display: flex ;
+    align-items:start;
+    flex-direction: column;
+}
+.ght input, .ght select{
+    padding-left: 35px !important;
+}
+.ght span{
+    font-size: 16px;
+    position: absolute;
+    left: 10px;
+    bottom: 12px;
+}
+.ght:nth-of-type(3) span{
+    bottom: 10.1px;
+}
+.ght:nth-of-type(4) div {
+    width: 240px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.ght:nth-of-type(4) div select {
+    width: 60px;
+}
+.ght:nth-of-type(4) div input {
+    width: 140px !important;
+}
+.ght:nth-of-type(4) select {
+    width: 80px !important;
+    height: 37px;
+    margin-bottom: 0 !important;
+}
+.ght:nth-of-type(4) input, .ght:nth-of-type(4) select {
+    padding: 8px !important;
+}
